@@ -10,11 +10,28 @@
     padding: 10px;
 }
 
-#container{
+#container-cards {
     display: flex;
     width: 1000px;
     min-height: 500px;
     margin: 50px auto;
     flex-wrap: wrap;
     justify-content: space-between; 
+}
+
+.cards {
+    width: 350px;
+    height: 400px;
+    margin-bottom: 50px;
+    text-align: center; 
+}
+        
+.cards-description {
+    padding: 10px;
+    background-color: wheat;
+}
+
+.cards img {
+    width: 350px;
+    object-fit: cover;     
 }
