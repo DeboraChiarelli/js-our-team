@@ -60,8 +60,8 @@ for (let i = 0; i < membriTeam.length; i++) {
     const ruoloMembro = membroTeam.ruolo;
     const imgMembro = membroTeam.foto;
 
-    const cardElements = `<div class="cards"> <div class="cards_description">${nomeMembro}</div> 
-                        <div class="cards_description">${ruoloMembro}</div> <img src=img/${imgMembro} alt=""> </div>`;
+    const cardElements = `<div class="cards"> <div class="cards-description">${nomeMembro}</div> 
+                        <div class="cards-description">${ruoloMembro}</div> <img src=img/${imgMembro} alt=""> </div>`;
   
     containerDOMElement.innerHTML += cardElements;
 
